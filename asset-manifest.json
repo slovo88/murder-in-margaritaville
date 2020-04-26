@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/murder-in-margaritaville/static/css/main.46d68f6b.chunk.css",
+    "main.js": "/murder-in-margaritaville/static/js/main.b406d103.chunk.js",
+    "main.js.map": "/murder-in-margaritaville/static/js/main.b406d103.chunk.js.map",
+    "runtime-main.js": "/murder-in-margaritaville/static/js/runtime-main.0226b7bc.js",
+    "runtime-main.js.map": "/murder-in-margaritaville/static/js/runtime-main.0226b7bc.js.map",
+    "static/js/2.90552edb.chunk.js": "/murder-in-margaritaville/static/js/2.90552edb.chunk.js",
+    "static/js/2.90552edb.chunk.js.map": "/murder-in-margaritaville/static/js/2.90552edb.chunk.js.map",
+    "index.html": "/murder-in-margaritaville/index.html",
+    "precache-manifest.0a663bf81afeabbd655471bb387cbe51.js": "/murder-in-margaritaville/precache-manifest.0a663bf81afeabbd655471bb387cbe51.js",
+    "service-worker.js": "/murder-in-margaritaville/service-worker.js",
+    "static/css/main.46d68f6b.chunk.css.map": "/murder-in-margaritaville/static/css/main.46d68f6b.chunk.css.map",
+    "static/js/2.90552edb.chunk.js.LICENSE.txt": "/murder-in-margaritaville/static/js/2.90552edb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0226b7bc.js",
+    "static/js/2.90552edb.chunk.js",
+    "static/css/main.46d68f6b.chunk.css",
+    "static/js/main.b406d103.chunk.js"
+  ]
+}
