@@ -1,0 +1,54 @@
+body {
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header, main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 50px;
+}
+
+.App-header {
+  min-height: 15vh;
+}
+
+main {
+  min-height: 85vh;
+}
+
+h1 {
+  margin: 10px auto;
+}
+
+p {
+  margin: 10px auto;
+}
+
+ol, ul {
+  text-align: left;
+}
+
+ol span {
+  position: relative;
+  bottom: -3px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li span {
+  text-overflow: ellipsis;
+  max-width: 150px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+}
