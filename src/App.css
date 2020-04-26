@@ -26,6 +26,8 @@ main {
 
 h1 {
   margin: 10px auto;
+  text-align: center;
+  font-size: 24px;
 }
 
 p {
@@ -51,4 +53,86 @@ li span {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
+}
+
+form {
+  margin: 20px 0px;
+  width: 90%;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 20px;
+}
+
+p.error-message {
+  font-size: 16px;
+  color: red;
+}
+
+button {
+  background-color: #003882;
+  color: #eee;
+  border-radius: 5px;
+  display: block;
+  margin: 0;
+  font-size: 20px;
+  width: 25%;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 720px) {
+  button {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+  }
+}
+
+header {
+  min-height: 50px;
+}
+
+button.logout,
+.voted-container button,
+.see-voted {
+  font-size: 14px;
+  width: auto;
+  padding: auto;
+  background-color: transparent;
+  border: none;
+  right: 0;
+  position: absolute;
+}
+
+.see-voted {
+  left: 0;
+}
+
+.radio-form {
+  text-align: left;
+  width: auto;
+}
+
+.accused-bar {
+  display: inline-block;
+  height: 10px; 
+  background-color: green;
+}
+
+p.results-p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+li.submitted {
+  color: green;
 }
